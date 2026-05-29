@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ian's personal landing page displaying greeting and live current date and time. Built with modern glassmorphism UI.">
+  <title>Hello, my name is Ian | Live Time</title>
+  <!-- SEO & Favicon placeholder or styling -->
+  <link rel="stylesheet" href="index.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+
+  <!-- Ambient Glow Background Circles -->
+  <div class="ambient-glows" aria-hidden="true">
+    <div class="glow-1"></div>
+    <div class="glow-2"></div>
+    <div class="glow-3"></div>
+  </div>
+
+  <!-- Premium Glassmorphic Display Card -->
+  <main class="container" id="main-content">
+    
+    <!-- Profile and Name Header -->
+    <section class="profile-section">
+      <div class="avatar-wrapper" aria-label="Ian's Profile Initial">
+        <div class="avatar-glow"></div>
+        <div class="avatar">I</div>
+      </div>
+      <p class="greeting-label" id="greeting-text">Hello, my name is</p>
+      <h1 class="name-title">
+        <span class="name-highlight">Ian</span>
+      </h1>
+    </section>
+
+    <!-- Date & Time Information Display -->
+    <section class="datetime-section" aria-label="Current Date and Time">
+      <div class="time-container">
+        <span class="time-digits" id="time-digits">00:00</span>
+        <span class="time-seconds" id="time-seconds">:00</span>
+        <span class="time-ampm" id="time-ampm">AM</span>
+      </div>
+      <div class="date-container">
+        <span class="date-day-name" id="date-day-name">Loading...</span>
+        <span class="date-full" id="date-full">Loading Date...</span>
+      </div>
+    </section>
+
+    <!-- Interactive Controls and Live Status -->
+    <section class="controls-section">
+      <div class="status-badge" aria-live="polite">
+        <span class="status-dot" id="status-dot"></span>
+        <span id="status-label">Syncing Time</span>
+      </div>
+      <button class="toggle-btn" id="toggle-format" aria-label="Toggle between 12 and 24 hour time formatting">Show 24h</button>
+    </section>
+
+    <!-- Footer branding or credit -->
+    <footer class="footer-text">
+      Designed with passion for Ian • &copy; 2026
+    </footer>
+
+  </main>
+
+</body>
+</html>
