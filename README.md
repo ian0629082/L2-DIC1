@@ -2,6 +2,8 @@
 
 A premium, interactive personal landing page featuring a live date/time display with styled ambient effects.
 
+🔗 **Live Demo**: [https://ian0629082.github.io/L2-DIC1/](https://ian0629082.github.io/L2-DIC1/)
+
 ## 🚀 Features
 
 - **Live Digital Clock**: Updates in real-time with seconds.
